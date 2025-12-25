@@ -66,8 +66,8 @@ The repository follows a strictly modular architecture to ensure a clear separat
 │   ├── patch_service.py        # Phase 3: L-0 universal patch analysis & viz
 │   ├── config_manager.py       # TOML parsing and CLI merging logic
 │   └── storage_manager.py      # Checkpoint and results persistence utility
-├── checkpoints_<prefix>/       # Serialized model weights (.pth)
-└── results_<prefix>/           # Quantitative reports (.csv) and qualitative plots (.png)
+├── checkpoints                 # Serialized model weights (.pth)
+└── results                     # Quantitative reports (.csv) and qualitative plots (.png)
 
 ## 4. Configuration and Usage
 
