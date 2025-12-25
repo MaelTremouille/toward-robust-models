@@ -1,0 +1,35 @@
+# Model weights and large directories
+data/
+# Ignore everything starting with 'checkpoints' and 'results (folders and files)
+results*
+checkpoints*
+
+# Python-generated files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+bin/
+lib/
+include/
+
+# Generated data files
+*.npy
+*.npz
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Personal and experimental notebooks
+plots.ipynb
+signs.ipynb
+main_patch.ipynb
+
+# Configuration local overrides
+*.local.toml
